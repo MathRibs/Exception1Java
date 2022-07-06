@@ -48,7 +48,7 @@ public String updateDates(Date checkIn, Date checkOut) {
 }
 @Override
 public String toString() {
-	return "Room"
+	return "Room "
      + roomNumber
      +", check-in:"
      +sdf.format(checkIn)
